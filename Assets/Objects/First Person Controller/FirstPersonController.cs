@@ -21,7 +21,7 @@ using MB;
 
 namespace Game
 {
-    [RequireComponent(typeof(Rigidbody), typeof(CapsuleCollider), typeof(PhysicsCollisionRewind))]
+    [RequireComponent(typeof(Rigidbody), typeof(CapsuleCollider)/*, typeof(PhysicsCollisionRewind)*/)]
 #pragma warning disable CS0108 // Member hides inherited member; missing new keyword
     public class FirstPersonController : MonoBehaviour, PreAwake.IInterface
     {
@@ -32,8 +32,8 @@ namespace Game
         public CapsuleCollider collider { get; protected set; }
         
         #region Modules
-        [field: SerializeField, DebugOnly]
-        public PhysicsCollisionRewind CollisionRewind { get; protected set; }
+        //[field: SerializeField, DebugOnly]
+        //public PhysicsCollisionRewind CollisionRewind { get; protected set; }
 
         [field: SerializeField, DebugOnly]
         public ControllerGenericData GenericData { get; protected set; }
@@ -131,7 +131,7 @@ namespace Game
         public virtual void PreAwake()
         {
             rigidbody = GetComponent<Rigidbody>();
-            CollisionRewind = GetComponent<PhysicsCollisionRewind>();
+            //CollisionRewind = GetComponent<PhysicsCollisionRewind>();
             collider = GetComponent<CapsuleCollider>();
 
             Behaviours = new Behaviours<FirstPersonController>(this);

@@ -148,11 +148,13 @@ PlayerSettings:
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
   enableFrameTimingStats: 0
+  enableOpenGLProfilerGPURecorders: 1
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
   targetPixelDensity: 30
   resolutionScalingMode: 0
+  resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
@@ -665,6 +667,7 @@ PlayerSettings:
   ps4videoRecordingFeaturesUsed: 0
   ps4contentSearchFeaturesUsed: 0
   ps4CompatibilityPS5: 0
+  ps4AllowPS5Detection: 0
   ps4GPU800MHz: 1
   ps4attribEyeToEyeDistanceSettingVR: 0
   ps4IncludedModules: []
@@ -691,20 +694,20 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
     : UNITY_POST_PROCESSING_STACK_V2
-    Android: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX
-    CloudRendering: UNITY_POST_PROCESSING_STACK_V2;Assembly_Define_Example;MOE_TOOLBOX
-    EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2;Assembly_Define_Example;MOE_TOOLBOX
-    GameCoreXboxOne: UNITY_POST_PROCESSING_STACK_V2;Assembly_Define_Example;MOE_TOOLBOX
-    Lumin: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX
-    Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX
-    PS4: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX
-    PS5: UNITY_POST_PROCESSING_STACK_V2;Assembly_Define_Example;MOE_TOOLBOX
-    Stadia: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX
-    Standalone: UNITY_POST_PROCESSING_STACK_V2;Assembly_Define_Example;MOE_TOOLBOX
-    WebGL: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX
-    Windows Store Apps: UNITY_POST_PROCESSING_STACK_V2;Assembly_Define_Example;MOE_TOOLBOX
-    XboxOne: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX
-    tvOS: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX
+    Android: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    CloudRendering: UNITY_POST_PROCESSING_STACK_V2;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    GameCoreXboxOne: UNITY_POST_PROCESSING_STACK_V2;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    Lumin: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    PS4: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    PS5: UNITY_POST_PROCESSING_STACK_V2;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    Stadia: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    Standalone: UNITY_POST_PROCESSING_STACK_V2;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    WebGL: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    Windows Store Apps: UNITY_POST_PROCESSING_STACK_V2;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    XboxOne: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
+    tvOS: UNITY_POST_PROCESSING_STACK_V2;Example;Assembly_Define_Example;MOE_TOOLBOX;MB_TOOLBOX
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -750,6 +753,7 @@ PlayerSettings:
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
+  vcxProjDefaultLanguage: 
   XboxOneProductId: 
   XboxOneUpdateKey: 
   XboxOneSandboxId: 
@@ -803,4 +807,3 @@ PlayerSettings:
   playerDataPath: 
   forceSRGBBlit: 1
   virtualTexturingSupportEnabled: 0
-  uploadClearedTextureDataAfterCreationFromScript: 1

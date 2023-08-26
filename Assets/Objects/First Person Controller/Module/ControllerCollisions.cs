@@ -119,9 +119,9 @@ namespace Game
         {
             base.Initialize();
 
-            Controller.CollisionRewind.EnterEvent += Set;
-            Controller.CollisionRewind.StayEvent += Set;
-            Controller.CollisionRewind.ExitEvent += Remove;
+            // Controller.CollisionRewind.EnterEvent += Set;
+            // Controller.CollisionRewind.StayEvent += Set;
+            // Controller.CollisionRewind.ExitEvent += Remove;
         }
 
         void OnDrawGizmosSelected()

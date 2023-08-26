@@ -7367,7 +7367,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.000000029802322
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8422852252139743833, guid: a58bb4d88a2d9194181c59a077d65af5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a58bb4d88a2d9194181c59a077d65af5, type: 3}
 --- !u!4 &1598467568 stripped
 Transform:
@@ -9329,9 +9330,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87304a3245ce8c047bbde8190bf12d17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Weapon>k__BackingField: {fileID: 0}
-  <Animator>k__BackingField: {fileID: 0}
-  <TriggerRewind>k__BackingField: {fileID: 0}
+  <Weapon>k__BackingField: {fileID: 3929506408573634502}
+  <Animator>k__BackingField: {fileID: 2122033600}
+  <TriggerRewind>k__BackingField: {fileID: 2122033599}
 --- !u!114 &2122033599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9804,9 +9805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <Aim>k__BackingField: {fileID: 3488396328564634734}
-  <List>k__BackingField:
-  - {fileID: 0}
-  - {fileID: 0}
+  <List>k__BackingField: []
   <Modules>k__BackingField:
     components: []
 --- !u!4 &1040485450969335772
@@ -10533,8 +10532,6 @@ MonoBehaviour:
     - {fileID: 5113340562083319893}
     - {fileID: 8332820833460754172}
     - {fileID: 983245219784530052}
-    - {fileID: 0}
-    - {fileID: 0}
 --- !u!114 &3541590544610800048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10641,7 +10638,7 @@ PrefabInstance:
         type: 3}
       propertyPath: <Mesh>k__BackingField
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2122033598}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Pivot>k__BackingField
@@ -10680,12 +10677,12 @@ PrefabInstance:
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Modules>k__BackingField.components.Array.size
-      value: 31
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.size
-      value: 65
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
@@ -10781,37 +10778,37 @@ PrefabInstance:
         type: 3}
       propertyPath: <Modules>k__BackingField.components.Array.data[18]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2672094719469293124}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Modules>k__BackingField.components.Array.data[19]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5892901327481761008}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Modules>k__BackingField.components.Array.data[20]
       value: 
-      objectReference: {fileID: 2672094719469293124}
+      objectReference: {fileID: 926043966630491109}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Modules>k__BackingField.components.Array.data[21]
       value: 
-      objectReference: {fileID: 5892901327481761008}
+      objectReference: {fileID: 5892901328000048954}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Modules>k__BackingField.components.Array.data[22]
       value: 
-      objectReference: {fileID: 926043966630491109}
+      objectReference: {fileID: 142066208412012275}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Modules>k__BackingField.components.Array.data[23]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2468584309894653507}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Modules>k__BackingField.components.Array.data[24]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2122033598}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Modules>k__BackingField.components.Array.data[25]
@@ -11105,62 +11102,62 @@ PrefabInstance:
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[41]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2672094719469293124}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[42]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2886728400977695689}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[43]
       value: 
-      objectReference: {fileID: 2672094719469293124}
+      objectReference: {fileID: 4294391700128364582}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[44]
       value: 
-      objectReference: {fileID: 2886728400977695689}
+      objectReference: {fileID: 434324338136574840}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[45]
       value: 
-      objectReference: {fileID: 4294391700128364582}
+      objectReference: {fileID: 5892901327481761008}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[46]
       value: 
-      objectReference: {fileID: 434324338136574840}
+      objectReference: {fileID: 926043966630491109}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[47]
       value: 
-      objectReference: {fileID: 5892901327481761008}
+      objectReference: {fileID: 4498242127962446030}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[48]
       value: 
-      objectReference: {fileID: 926043966630491109}
+      objectReference: {fileID: 5397712036411899366}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[49]
       value: 
-      objectReference: {fileID: 4498242127962446030}
+      objectReference: {fileID: 5892901328000048954}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[50]
       value: 
-      objectReference: {fileID: 5397712036411899366}
+      objectReference: {fileID: 142066208412012275}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[51]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2468584309894653507}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[52]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2122033598}
     - target: {fileID: 8025957073566884412, guid: 7195c33998f9c004085b53f1cbbcbc2c,
         type: 3}
       propertyPath: <Behaviours>k__BackingField.components.Array.data[53]

@@ -36,7 +36,7 @@ namespace Game
 
         void HitCallback(Projectile projectile, WeaponHit.Data data)
         {
-            MUtility.SetLayer(Projectile, layer.Index);
+            //MUtility.SetLayer(Projectile, layer.Index);
         }
     }
 
